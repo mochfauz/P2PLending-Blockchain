@@ -79,8 +79,8 @@ concept SettlementApplication {
 }
 
 /**Participant part */
-abstract participant User identified by _id {
-	o String _id
+abstract participant User identified by userId {
+	o String userId
 	o String phone
 }
 
